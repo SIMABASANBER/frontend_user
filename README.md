@@ -1,4 +1,4 @@
-# Simaba
+# SIMABA
 
 Simaba is an application for conducting exams, built using Vite, React, PostCSS, Flowbite, and Tailwind CSS.
 
@@ -22,7 +22,7 @@ Simaba is an application for conducting exams, built using Vite, React, PostCSS,
 1. Clone the repository:
 
    ```
-   git clone <repository-url>
+   git clone https://github.com/SIMABASANBER/frontend_user.git
    ```
 2. Navigate into the project directory:
     ```
