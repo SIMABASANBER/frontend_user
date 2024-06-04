@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "question": "Metode penelitian yang menggunakan pendekatan numerik dan analisis statistik disebut",
+      "options": [
+        "A. Kualitatif",
+        "B. Kuantitatif",
+        "C. Eksperimental",
+        "D. Deskriptif"
+      ],
+      "correctAnswer": "B. Kuantitatif"
+    },
+    {
+      "id": 2,
+      "question": "Dalam teori komunikasi, model komunikasi Shannon-Weaver berfokus pada",
+      "options": [
+        "A. Proses decoding pesan",
+        "B. Gangguan dalam saluran komunikasi",
+        "C. Konteks budaya komunikasi",
+        "D. Interaksi interpersonal"
+      ],
+      "correctAnswer": "A. Proses decoding pesan"
+    },
+    {
+      "id": 3,
+      "question": "Siapa yang dikenal sebagai Bapak Ekonomi modern?",
+      "options": [
+        "A. John Maynard Keynes",
+        "B. Adam Smith",
+        "C. Karl Marx",
+        "D. David Ricardo"
+      ],
+      "correctAnswer": "A. John Maynard Keynes"
+    },
+    {
+        "id": 4,
+        "question": "Pada tahun berapakah Revolusi Industri dimulai di Inggris?",
+        "options": [
+            "A. 1760",
+            "B. 1789",
+            "C. 1804",
+            "D. 1850"
+        ],
+        "correctAnswer": "A. 1760"
+    },
+    {
+        "id": 5,
+        "question": "Filsafat yang dianut oleh kaum eksistensialis di Eropa adalah",
+        "options": [
+            "A. Materialisme",
+            "B. Rasionalisme",
+            "C. Empirisisme",
+            "D. Eksistensialisme"
+        ],
+        "correctAnswer": "D. Eksistensialisme"
+    },
+    {
+        "id": 6,
+        "question": "Negara yang berhasil mengatasi krisis ekonomi pada tahun 1998 adalah",
+        "options": [
+            "A. Thailand",
+            "B. Indonesia",
+            "C. Malaysia",
+            "D. Singapura"
+        ],
+        "correctAnswer": "C. Malaysia"
+    },
+    {
+        "id": 7,
+        "question": "Siapa penulis buku 'Das Kapital'?",
+        "options": [
+            "A. Adam Smith",
+            "B. Karl Marx",
+            "C. John Maynard Keynes",
+            "D. David Ricardo"
+        ],
+        "correctAnswer": "B. Karl Marx"
+    },
+    {
+        "id": 8,
+        "question": "Negara yang terkenal dengan konsep 'welfare state' adalah",
+        "options": [
+            "A. Jepang",
+            "B. Amerika Serikat",
+            "C. Kanada",
+            "D. Swedia"
+        ],
+        "correctAnswer": "D. Swedia"
+    },
+    {
+        "id": 9,
+        "question": "Konsep 'invisible hand' dikenal dalam karya siapa?",
+        "options": [
+            "A. John Maynard Keynes",
+            "B. Adam Smith",
+            "C. Karl Marx",
+            "D. David Ricardo"
+        ],
+        "correctAnswer": "B. Adam Smith"
+    },
+    {
+        "id": 10,
+        "question": "Negara manakah yang mendirikan organisasi ASEAN?",
+        "options": [
+            "A. Indonesia",
+            "B. Malaysia",
+            "C. Singapura",
+            "D. Thailand"
+        ],
+        "correctAnswer": "A. Indonesia"
+    }
+  ]
+  
