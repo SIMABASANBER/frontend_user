@@ -186,7 +186,7 @@ const SignUp = () => {
       </div>
 
       <p className="text-sm text-center font-light text-gray-500 dark:text-gray-400">
-        Sudah memiliki akun? <a href="signin" className="font-medium text-gray-600 hover:underline dark:text-gray-500">Login disini</a>
+        Sudah memiliki akun? <a href="/" className="font-medium text-gray-600 hover:underline dark:text-gray-500">Login disini</a>
       </p>
       <button type="submit" className="w-full text-white bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
         Sign in

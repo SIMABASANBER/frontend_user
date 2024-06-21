@@ -4,21 +4,25 @@ import { useNavigate } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import { Input } from 'antd';
 import { EyeInvisibleOutlined, EyeTwoTone,UserOutlined } from '@ant-design/icons';
+import { login } from '../api/login/api';
+import { useAuth } from '../api/context/auth-context';
 
 const SignIn = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
+    const { login: contextLogin } = useAuth();
   
-    const handleSubmit = (e) => {
+    async function handleLogin(e) {
       e.preventDefault();
-      navigate
-      // Handle form submission logic here
-      console.log({
-        username,
-        password,
-      });
-      navigate("/");
-    };
+      try {
+        const response = await login(username, password);
+        const token = response.token;
+        contextLogin(token);
+        navigate("/dashboard");
+      } catch (error) {
+        console.log(error)
+      }
+    }
 
   const navigate = useNavigate();
 
@@ -34,7 +38,7 @@ const SignIn = () => {
             <h1 className="text-xl font-semibold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
               SIMABA - Login
             </h1>
-            <form className="space-y-4 md:space-y-6" onSubmit={handleSubmit}>
+            <form className="space-y-4 md:space-y-6" onSubmit={handleLogin}>
               <div>
                 <label
                   htmlFor="username"
