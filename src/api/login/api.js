@@ -1,9 +1,9 @@
 import axiosWithConfig from "../axiosWithConfig";
 
-export const login = async (email, password) => {
+export const login = async (username, password) => {
   try {
     const response = await axiosWithConfig.post("/auth/login", {
-      email,
+      username,
       password,
     });
     console.log(response)
