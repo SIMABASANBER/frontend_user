@@ -93,14 +93,14 @@ const Dashboard = () => {
       </ul>
    </div>
 </aside>
-<div class="flex flex-row items-center bg-white rounded-2xl border border-2 border-gray-500 p-6 w-full max-w-2xl mx-auto m-10">
+<div class="flex flex-row items-center bg-white rounded-2xl border-2 border-gray-500 p-6 w-full max-w-2xl mx-auto m-10">
   <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src={image1} alt=""/>
   <div class="items-center mb-4">
     <h2 class="text-xl font-bold mb-3">Ujian Perimaan Calon Mahasiswa Baru</h2>
     <p class="text-gray-600 mb-6">Selamat datang di ujian penerimaan calon mahasiswa baru untuk Tahun Ajaran 2024/2025. Ujian ini merupakan langkah awal untuk menjadi bagian dari komunitas akademik kami. Kami berkomitmen untuk memberikan pengalaman pendidikan yang terbaik bagi para mahasiswa dan kami berharap Anda dapat menunjukkan kemampuan terbaik Anda dalam ujian ini.</p>
     <div class="flex justify-between">
       <p class="text-lg font-semibold">2024/2025</p>
-      <a href="/start" class="bg-gray-800 hover:bg-gray-700 text-white font-bold py-3 px-10 rounded rounded-full focus:outline-none focus:shadow-outline">Mulai</a>
+      <a href="/start" class="bg-gray-800 hover:bg-gray-700 text-white font-bold py-3 px-10 rounded-full focus:outline-none focus:shadow-outline">Mulai</a>
     </div>
   </div>
   
