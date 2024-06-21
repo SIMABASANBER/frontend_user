@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosWithConfig = axios.create({
-  baseURL: "http://devsimaba.quizezz.online",
+  baseURL: "https://devsimaba.quizezz.online",
 });
 
 export default axiosWithConfig;
