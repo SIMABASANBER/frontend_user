@@ -109,7 +109,7 @@ const Question = () => {
                 <ConfirmationModal isOpen={isModalOpen} onClose={closeModal} onConfirm={handleConfirmation} />
             </div>
 
-            <div className="grid grid-cols-5 gap-2 border border-black p-4 border-2 items-center justify-center">
+            <div className="grid grid-cols-5 gap-2 border border-black p-4 items-center justify-center">
                 {Array.from({ length: questionsData.length }, (_, i) => i + 1).map((num) => (
                     <QuestionNumberButton key={num} id={num} />
                 ))}
