@@ -46,9 +46,9 @@ const SignUp = () => {
         >
           <img class="w-56 xs:w-32" src={logo} alt="logo" />
         </a>
-        <div class="w-full bg-white border-4 border-t-gray-800 border-white dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+        <div class="w-full bg-white border-4 border-t-[#293066] border-white dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
           <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
-            <h1 class="text-xl font-semibold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+            <h1 class="text-xl font-semibold leading-tight tracking-tight text-[#293066] md:text-2xl dark:text-white">
               SIMABA - Register
             </h1>
             <form className="space-y-4 md:space-y-6" onSubmit={handleRegister}>
@@ -219,14 +219,14 @@ const SignUp = () => {
                 Sudah memiliki akun?{" "}
                 <a
                   href="/"
-                  className="font-medium text-gray-600 hover:underline dark:text-gray-500"
+                  className="font-medium text-[#293066] hover:underline dark:text-gray-500"
                 >
                   Login disini
                 </a>
               </p>
               <button
                 type="submit"
-                className="w-full text-white bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+                className="w-full text-white bg-[#293066] hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
               >
                 Sign in
               </button>

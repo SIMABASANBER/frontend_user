@@ -5,7 +5,7 @@ import SignIn from "./pages/SignIn";
 import Dashboard from "./pages/Dashboard";
 import Start from "./pages/Start";
 import Result from "./pages/Result";
-import Question from "./pages/Question";
+import Questions from "./pages/questions";
 import { ConfigProvider } from "antd";
 const App = () => {
   return (
@@ -22,7 +22,7 @@ const App = () => {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/start" element={<Start />} />
-          <Route path="/question/:id" element={<Question />} />
+          <Route path="/question" element={<Questions />} />
           <Route path="/result" element={<Result />} />
         </Routes>
       </Router>
