@@ -7,6 +7,8 @@ import Start from "./pages/Start";
 import Result from "./pages/Result";
 import Questions from "./pages/questions";
 import { ConfigProvider } from "antd";
+import ProtectedRoute from "./protected-route";
+
 const App = () => {
   return (
     <ConfigProvider
@@ -20,10 +22,38 @@ const App = () => {
         <Routes>
           <Route path="/" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/start" element={<Start />} />
-          <Route path="/question" element={<Questions />} />
-          <Route path="/result" element={<Result />} />
+          <Route
+            path="/dashboard"
+            element={
+              <ProtectedRoute>
+                <Dashboard />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/start"
+            element={
+              <ProtectedRoute>
+                <Start />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/question"
+            element={
+              <ProtectedRoute>
+                <Questions />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/result"
+            element={
+              <ProtectedRoute>
+                <Result />
+              </ProtectedRoute>
+            }
+          />
         </Routes>
       </Router>
     </ConfigProvider>
