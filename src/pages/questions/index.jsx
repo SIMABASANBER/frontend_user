@@ -42,7 +42,7 @@ function Questions() {
   const handleSubmitAnswer = async (selectedAnswer) => {
     try {
       await submitAnswer(currentQuestionIndex, selectedAnswer);
-      if (currentQuestionIndex + 1 < (totalQuestions + 5)) {
+      if (currentQuestionIndex + 1 < (totalQuestions + 4)) {
         setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
       } else {
         navigate("/result");
