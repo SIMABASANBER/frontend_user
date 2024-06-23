@@ -1,15 +1,25 @@
-import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "../api/context/auth-context";
+
 const Result = () => {
+  const {logout} = useAuth();
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    logout()
+    navigate("/")
+  }
+
   return (
     <div className="p-6  min-h-screen bg-gray-100">
-      <button type="primary" block>
-        <a href="/" class="flex">
+      <button type="primary" onClick={handleLogout}>
+        <a className="flex">
           <svg
-            class="w-5 h-5 rtl:rotate-180"
+            className="w-5 h-5 rtl:rotate-180"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
           >
             <path
@@ -32,7 +42,7 @@ const Result = () => {
             yang kamu luangkan untuk mengikuti ujian ini.
           </p>
           <div
-            class="p-4 text-lg text-gray-800 rounded-lg bg-gray-200"
+            className="p-4 text-lg text-gray-800 rounded-lg bg-gray-200"
             role="alert"
           >
             Hasil kamu telah kami terima tunggu pengumuman selanjutnya ya!
