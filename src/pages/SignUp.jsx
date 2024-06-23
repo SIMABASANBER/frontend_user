@@ -38,17 +38,17 @@ const SignUp = () => {
   }
 
   return (
-    <section class="bg-gray-50 dark:bg-gray-900">
-      <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+    <section className="bg-gray-50 dark:bg-gray-900">
+      <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
         <a
           href=""
-          class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white"
+          className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white"
         >
-          <img class="w-56 xs:w-32" src={logo} alt="logo" />
+          <img className="w-56 xs:w-32" src={logo} alt="logo" />
         </a>
-        <div class="w-full bg-white border-4 border-t-[#293066] border-white dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
-          <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
-            <h1 class="text-xl font-semibold leading-tight tracking-tight text-[#293066] md:text-2xl dark:text-white">
+        <div className="w-full bg-white border-4 border-t-[#293066] border-white dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+          <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
+            <h1 className="text-xl font-semibold leading-tight tracking-tight text-[#293066] md:text-2xl dark:text-white">
               SIMABA - Register
             </h1>
             <form className="space-y-4 md:space-y-6" onSubmit={handleRegister}>

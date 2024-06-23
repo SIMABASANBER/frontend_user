@@ -22,7 +22,7 @@ const Start = () => {
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="p-6  min-h-screen bg-gray-100 ">
         <button className="mb-5" type="primary" block>
-          <a href="/dashboard" class="flex">
+          <a href="/dashboard" className="flex">
             <svg
               className="w-5 h-5 rtl:rotate-180"
               xmlns="http://www.w3.org/2000/svg"
