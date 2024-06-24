@@ -29,5 +29,9 @@ SIMABA adalah aplikasi tes untuk seleksi calon mahasiswa baru Universitas Banten
 ![image](https://github.com/SIMABASANBER/frontend_user/assets/109673930/0cd9a805-f879-466a-9896-6dfd0aa94bd8)
 ![image](https://github.com/SIMABASANBER/frontend_user/assets/109673930/5b8836c7-4685-435a-a2fd-0ac299c2beb7)
 ![image](https://github.com/SIMABASANBER/frontend_user/assets/109673930/aac2114c-70e0-4b4a-ad23-0d74c5c0e3a9)
+![image](https://github.com/SIMABASANBER/frontend_user/assets/109673930/1a8e2a4b-9ef2-4cec-8f04-289b329471df)
+![image](https://github.com/SIMABASANBER/frontend_user/assets/109673930/3b4396bc-b265-403b-8a39-fd8fc7483c21)
+
+
 
 
