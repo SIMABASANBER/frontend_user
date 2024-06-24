@@ -24,7 +24,7 @@ SIMABA adalah aplikasi tes untuk seleksi calon mahasiswa baru Universitas Banten
 - Tailwind
 - Axios
 
-## Review
+## Review User Page
 
 ![image](https://github.com/SIMABASANBER/frontend_user/assets/109673930/65f1fb81-21a5-421b-99c7-a9620adb1c81)
 ![image](https://github.com/SIMABASANBER/frontend_user/assets/109673930/0cd9a805-f879-466a-9896-6dfd0aa94bd8)
