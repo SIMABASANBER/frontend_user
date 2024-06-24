@@ -41,12 +41,12 @@ const Dashboard = () => {
 
       <aside
         id="sidebar-multi-level-sidebar"
-        className={`fixed top-0 left-0 z-40 w-64 h-screen transition-transform ${
+        className={`bg-gray-200 fixed top-0 left-0 z-40 w-64 h-screen transition-transform ${
           sidebarOpen ? "" : "-translate-x-full"
         } sm:translate-x-0`}
         aria-label="Sidebar"
       >
-        <div classname="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
+        <div classname="h-full px-3 py-4 overflow-y-auto bg-gray-500 dark:bg-gray-800">
           <a href="https://flowbite.com/" className="flex items-center ps-2.5 mb-5">
             <img src={logo} className="h-10 me-3 sm:h-12" alt="Flowbite Logo" />
           </a>
